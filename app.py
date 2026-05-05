@@ -666,7 +666,7 @@ if cover_file and secret_file:
                 auto_mode ="fwd",
                 stego_b64 =st.session_state.stego_b64,
             ),
-            height=370, scrolling=False
+            height=400, scrolling=False
         )
 
         st.markdown("**Generated Stego Image**")
@@ -756,7 +756,7 @@ if cover_file and secret_file:
                     stego_b64     =st.session_state.stego_b64,
                     recovered_b64 =st.session_state.recovered_b64,
                 ),
-                height=380, scrolling=False
+                height=400, scrolling=False
             )
 
             # 4-column image comparison
