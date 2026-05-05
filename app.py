@@ -666,7 +666,7 @@ if cover_file and secret_file:
                 auto_mode ="fwd",
                 stego_b64 =st.session_state.stego_b64,
             ),
-            height=360, scrolling=False
+            height=370, scrolling=False
         )
 
         st.markdown("**Generated Stego Image**")
