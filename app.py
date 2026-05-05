@@ -756,7 +756,7 @@ if cover_file and secret_file:
                     stego_b64     =st.session_state.stego_b64,
                     recovered_b64 =st.session_state.recovered_b64,
                 ),
-                height=360, scrolling=False
+                height=380, scrolling=False
             )
 
             # 4-column image comparison
